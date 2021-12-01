@@ -56,6 +56,11 @@ console.log(st && st_2);
 console.log(st && !st_2);
 console.log(st || st_2);
 
+let x = 15;
+
+
+
+
 
 
 
