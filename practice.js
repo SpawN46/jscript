@@ -56,9 +56,21 @@ console.log(st && st_2);
 console.log(st && !st_2);
 console.log(st || st_2);
 
-var number_test = 13;
-let number_else = 11;
-let flie_new = 'Success';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
