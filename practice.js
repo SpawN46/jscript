@@ -57,7 +57,8 @@ console.log(st && !st_2);
 console.log(st || st_2);
 
 let number_js = 11;
-var numberr = 22;
+var numberrs = 22;
+
 
 
 
