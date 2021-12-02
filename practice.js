@@ -58,6 +58,8 @@ console.log(st || st_2);
 
 let number_js = 11;
 var numberrs = 22;
+let next = 33;
+
 
 
 
