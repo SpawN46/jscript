@@ -71,6 +71,11 @@ console.log(isChecked && isClosed);
 console.log(isChecked && !isClosed);
 console.log(isChecked || isClosed);
 
+var number_js = 22;
+let new_number = 11;
+
+
+
 
 
 
