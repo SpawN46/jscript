@@ -1,64 +1,103 @@
 'use strict'
 
-var names = 'SpawN';
-let age = 33;
-let info = true;
-var net = undefined;
-let so = null;
-let structure = {};
-var mass = [];
+let money = prompt('What is your salary?', '');
+let time = prompt('What is it time?', '');
 
-console.log(names);
-console.log(age);
-console.log(info);
-console.log(net);
-console.log(so);
-
-let structue_2 = {
-    name: 'John',
-    age: 11,
-    adult: true
+let appData = {
+	budget: money,
+	timeData: time,
+	expenses: {},
+	optionalExpenses: {},
+	income: [],
+	savings: false
 };
 
-console.log(structue_2.name);
-console.log(structue_2['age']);
+let a1 = prompt('Ganeral?', ''),
+	a2 = prompt('How much do you need money>?', ''),
+	a3 = prompt('Ganeral?', ''),
+	a4 = prompt('How much do you need money>?', '');
 
-var mass_2 = [
-    'image.bmp',
-    'secret.jpg',
-    'surpise.png'
-];
+appData.expenses.a1 = a2;
+appData.expenses.a3 = a4;
 
-console.log(mass_2[2]);
+console.log(appData.expenses.a1);
+console.log(appData.expenses.a3);
 
-let comp_1 = '33';
-let comp_2 = 33;
+alert(appData.budget / 30);
 
-console.log(comp_1 == comp_2);
-console.log(comp_1 === comp_2);
 
-//alert('We have the window here');
-//console.log(confirm('Are you here now?'));
-//console.log(prompt('How old are you?'));
 
-let incr = 10, decr = 10;
 
-incr++
-decr--
 
-console.log(incr, decr);
-console.log(++incr, ++decr);
 
-let st = true;
-let st_2 = false;
 
-console.log(st && st_2);
-console.log(st && !st_2);
-console.log(st || st_2);
 
-let number_js = 11;
-var numberrs = 22;
-let next = 33;
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
