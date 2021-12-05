@@ -25,6 +25,9 @@ console.log(appData.expenses.a3);
 
 alert(appData.budget / 30);
 
+let s = 8;
+
+
 
 
 
